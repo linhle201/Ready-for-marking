@@ -26,12 +26,13 @@ function main()
     //input
     console.log("===Weekly Loan Calculator===");
     let loanamount = parseFloat(readlineSync.question("Enter the amount of loan:"));
-    let interestrate = parseFloat(readlineSync.question("Enter the interest rate(%):" + interestrate.toFixed(1)));
+    let interestrate = parseFloat(readlineSync.question("Enter the interest rate(%):"));
     let numberofyear = parseInt(readlineSync.question("Enter the number of years:"));
     
     //processing
     //Calculate the weekly payment
-    let weeklypayment = ((interestrate/5200) / (1- (1+ interestrate/5200))^-52*numberofyear)* loanamount;
+    let rateoneyear = interestrate/5200;
+    let weeklypayment = (rateoneyear/(1- ((1 + rateoneyear))**(-52*numberofyear)))*loanamount;
     
 
     //Output
