@@ -31,12 +31,12 @@ function main()
     
     //processing
     //Calculate the weekly payment
-    let weeklypayment = 
+    let weeklypayment = ((interestrate/5200) / (1- (1+ interestrate/5200))^-52*numberofyear)* loanamount;
     
 
     //Output
     // your weekly payment will be
-    console.log(" Your weekly payment will be:" + "$");
+    console.log(" Your weekly payment will be:" + "$" + weeklypayment.toFixed(2));
     
 
     
