@@ -24,9 +24,19 @@ let readlineSync = require('readline-sync');
 function main()
 {
     //input
+    console.log("===Weekly Loan Calculator===");
+    let loanamount = parseFloat(readlineSync.question("Enter the amount of loan:"));
+    let interestrate = parseFloat(readlineSync.question("Enter the interest rate(%):" + interestrate.toFixed(1)));
+    let numberofyear = parseInt(readlineSync.question("Enter the number of years:"));
     
     //processing
+    //Calculate the weekly payment
+    let weeklypayment = 
     
+
+    //Output
+    // your weekly payment will be
+    console.log(" Your weekly payment will be:" + "$");
     
 
     
