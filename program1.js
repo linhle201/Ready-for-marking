@@ -20,14 +20,14 @@ function main()
     //processing
     let deliverycost = distance*15;
     let purchasecost = recordspurchase*1.14;
-    let totalcost = deliverycost +recordscost;
+    let totalcost = deliverycost +purchasecost;
 
 
     //output
     console.log("Purchase summary for" + nameCustomer +":");
-    console.log("Delivery Cost:" +"$" + deliverycost.tofixed(2));
-    console.log("Purchase Cost :" + "$" + purchasecost.tofixed(2) );
-    console.log("Total Cost:" + "$" + totalcost.tofixed(2));
+    console.log("Delivery Cost:" +"$" + deliverycost.toFixed(2));
+    console.log("Purchase Cost :" + "$" + purchasecost.toFixed(2) );
+    console.log("Total Cost:" + "$" + totalcost.toFixed(2));
     
 
     
