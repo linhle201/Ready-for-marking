@@ -35,7 +35,7 @@ function main()
    
     
     //Output
-    console.log("The metric weight is:" + metrictons.valueOf();
+    console.log("The metric weight is:" + parseInt(metrictons) + "metric tons," + parseInt(totalkilos) + "kilos, and" + totalounces.toFixed(1) + "grams.");
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
