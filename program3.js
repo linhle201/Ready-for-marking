@@ -31,10 +31,11 @@ function main()
     //converts a weight given in tons, stones, pounds, and ounces
     let totalounces = 35840*number_of_tons + 224*number_of_stone + 16*number_of_pounds +number_of_ounces;
     let totalkilos = totalounces/35.274;
-    let metrictons = parseInt((224*number_of_stone)/1000);
+    let metrictons = parseInt((totalkilos/1000));
+   
     
     //Output
-    cons
+    console.log("The metric weight is:" + metrictons.valueOf();
 }
 
 // DO NOT EDIT: Trigger our main function to launch the program
