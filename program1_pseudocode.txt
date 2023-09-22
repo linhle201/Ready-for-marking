@@ -1,0 +1,21 @@
+1. Program starts
+
+2. Display the title for this program
+"Hipster's Local Vinyl Records- Customer Order Details"
+
+ //input
+3. Get the customers name and assign it to a variable name
+4. Promt an ask the user to input the distance in km for delivery and assign it to a variable name
+5. Prompt an ask the user to input the cost of the records purchased and assign it to a variable name
+
+ //process
+6. calculate the deliverycost by multiplying the "distance" with 15 and assign it to a variable "deliverycost"
+7. calculate the purchase cost with tax by multiplying the "purchasedcost" by 1.14 and assign it to a variable 
+8. calculate the total amount by adding the "delivery" with "the purchasecost" and assign it to the variable "totalcost"
+ //Output
+9. Display the title "Purchase summary" with the customer's name
+ Display the Delivery Cost
+ Display the Purchase Cost
+ Display the Total Cost 
+
+ Program ends

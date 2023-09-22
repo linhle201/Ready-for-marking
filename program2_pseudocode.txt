@@ -1,0 +1,19 @@
+1. Program starts
+
+2. Display "Weekly Loan Calculator"
+
+ //input
+3. Promt an ask the user to input the loan amount and assign it to a variable name
+4. Promt an ask the user to input interest rate and assign it to a variable name
+5. Prompt an ask the user to input number of the year and assign it to a variable name
+
+ //process
+6. calculate the interest rate for one year by letiing the interest rate divided by 5200 and assign it to a variable "rateone year"
+7. calculate the weekly payment by following the fomular and assign it to a variable "Weekly payment"
+
+ //Output
+8. Display the title "Purchase summary" with the customer's name
+ Display Your weekly payments
+
+
+ Program ends
